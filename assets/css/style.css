@@ -55,7 +55,9 @@ p,h1,h2,h3,h4{
     background-color: rgb(194, 6, 6);
     color: white;
 }
-
+main{
+    margin-bottom: 100px;
+}
 /* Section header */
 .instagram{
     padding: 100px 0;
@@ -88,4 +90,43 @@ p,h1,h2,h3,h4{
     width: 25%;
     text-align: center;
 
+}
+.white-text{
+    color: white;
+}
+.subscrip-section{
+    padding: 50px 0;
+}
+.newsleter-wrap{
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+.subscript-form{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+
+}
+.input-filed{
+    width: 100%;
+    padding: 15px 10px; 
+    border: none;
+    border-radius: 5px;
+
+}
+.input-filed:focus-visible{
+    outline: none;
+}
+button.subscrip{
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(189, 9, 9);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
