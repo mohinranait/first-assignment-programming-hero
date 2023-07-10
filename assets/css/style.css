@@ -100,7 +100,7 @@ main{
     padding: 100px 0;
 }
 .section-header{
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 25px;
 }
@@ -232,8 +232,56 @@ button.subscrip{
     line-height: 30px;
 }
 .off{
-    color: rgb(205, 11, 11);
+    color: #E55473;
 }
+/* Feature section css */
+.feature-section{
+    padding: 70px 0 70px 0;
+}
+.feature-wrap{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.feature-item{
+    text-align: center;
+    width: 100%;
+}
+.feater-item-header {
+    border-radius: 300px 300px 0 0;
+    overflow: hidden;
+    background: red;
+    height: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 25px;
+}
+.feater-item-header.left {
+    background-color: #F2DEE7;
+}
+.feater-item-header.center {
+    align-items: center;
+    background-color: #D9EFF1;
+}
+.feater-item-header.right {
+    background-color: #E3EBDB;
+}
+.feater-item-header img{
+    width: 70%;
+}
+.feater-item-footer .link{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+
 
 
 
