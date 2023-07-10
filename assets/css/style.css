@@ -55,3 +55,37 @@ p,h1,h2,h3,h4{
     background-color: rgb(194, 6, 6);
     color: white;
 }
+
+/* Section header */
+.instagram{
+    padding: 100px 0;
+}
+.section-header{
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.section-title,.section-text{
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.section-text{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 17px;
+}
+.instagram-wrap{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.instagram-item{
+    border: 1px solid #ddd;
+    width: 25%;
+    text-align: center;
+
+}
