@@ -58,9 +58,7 @@ p,h1,h2,h3,h4{
 .banner-right{
     width: 40%;
 }
-.banner-content-wrap{
-    /* width: 80%; */
-}
+
 .banner-title{
     color: #272727;
     font-family: 'Lato', sans-serif;
@@ -79,9 +77,7 @@ p,h1,h2,h3,h4{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.banner-image{
-    /* padding-top: 100px; */
-}
+
 .banner-image img{
     width: 100%;
     
