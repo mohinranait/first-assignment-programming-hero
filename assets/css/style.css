@@ -238,6 +238,7 @@ button.subscrip{
     display: flex;
     gap: 30px;
     justify-content: space-between;
+    padding: 30px;
 }
 .feature-item{
     text-align: center;
